@@ -14,6 +14,12 @@ public class SimpleCalculator {
 	}
 	
 	public int divide(int a, int b){
-		return a/b;
+		if(b==0){
+			return b/a;
+		}
+		else {
+			return a/b;
+		}
+		
 	}
 }
